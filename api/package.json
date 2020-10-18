@@ -15,6 +15,7 @@
     "json2csv": "^5.0.3",
     "node-forge": "^0.10.0",
     "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "request-promise": "^4.2.6",
+    "serialize-javascript": "^3.1.0"
   }
 }
