@@ -2,8 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
+class App extends Component {
+  handleClick() {
+    console.log('Cliqué');
+  }
+  render() (
     <div className="App">
       <header className="App-header">
         <h1>
@@ -13,8 +16,7 @@ function App() {
         </span>
         </h1>
         <div>
-        <div class="ui input"><input type="text" placeholder="Link to scrap..."/></div>
-        <button  class="ui button App-scrap-button">Scrap !</button>
+        <button onClick={this.handleClick} class="ui button App-scrap-button">Validate</button>
         </div>
       </header>
     </div>
