@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
 
-class App extends Component {
+export default class App extends React.Component {
   handleClick() {
-    console.log('Cliqué');
+    axios.post("http://localhost:8080/api/new", 'https://thehackernews.com/')
+    .then(res => {
+      console.log('response api/new', res)
+    })
   }
-  render() (
+  render() {
+    return (
     <div className="App">
       <header className="App-header">
         <h1>
@@ -20,7 +25,6 @@ class App extends Component {
         </div>
       </header>
     </div>
-  );
+    )
+  };
 }
-
-export default App;
