@@ -7,13 +7,15 @@ const bodyParser = require("body-parser");
 const PORT = 8080;
 
 app.use(cors(), bodyParser.urlencoded({ extended: true }), bodyParser.json());
-let datasArray = [];
 
 app.post("/api/new", (req, res) => {
+  let datasArray = [];
+
   // HACKERSNEWS
+  let hackernews = req.body.url
   // get all links from HACKERNEWS
-  function getHackersNews(url) {
-    request.get(url, function (error, response, data) {
+  function getHackersNews(hackernews) {
+    request.get(hackernews, function (error, response, data) {
       let $ = cheerio.load(data);
       let linksArray = [];
       $(".story-link").each(function (i, elem) {
@@ -36,7 +38,7 @@ app.post("/api/new", (req, res) => {
       });
     });
   }
-  getHackersNews("https://thehackernews.com/");
+  getHackersNews(hackernews);
 });
 
 app.listen(PORT, function () {
