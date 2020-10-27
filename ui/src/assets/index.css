@@ -16,7 +16,8 @@ body {
   border-radius: 0.5em;
   padding: 5%;
   margin: auto;
-  max-width: 95%;
+  max-width:500px;
+
 }
 .submit-button {
   margin: 5%;
