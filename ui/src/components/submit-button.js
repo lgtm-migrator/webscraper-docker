@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-export default function CounterButtons() {
+export default function SubmitButton() {
   const handleClick = () => {
     axios
       .post("http://localhost:8080/api/new", {
@@ -14,8 +14,8 @@ export default function CounterButtons() {
 
   return (
     <div>
-      <button onClick={handleClick} className="ui button">
-        Validate
+      <button onClick={handleClick} className="submit-button">
+        Submit
       </button>
     </div>
   );
