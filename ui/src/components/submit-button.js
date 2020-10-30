@@ -15,6 +15,7 @@ export default function SubmitButton() {
   return (
     <div>
       <button onClick={handleClick} className="submit-button">
+      <i className="paper plane icon"></i>
         Submit
       </button>
     </div>
