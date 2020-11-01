@@ -5,8 +5,6 @@ export default function DownloadButton() {
   const [state, dispatch] = useContext(Context);
   const downloadFile = async () => {
     const myData = state.api;
-    console.log(state.api)
-    console.log(myData, 'mydata')
     const fileName = "file";
     const json = JSON.stringify(myData);
     const blob = new Blob([json], { type: "application/json" });

@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../Store";
+import PropTypes from 'prop-types';
 
 export default function NewpaperButton(props) {
   const [state, dispatch] = useContext(Context);
@@ -21,4 +22,7 @@ export default function NewpaperButton(props) {
       </button>
     </div>
   );
+  NewpaperButton.propTypes = {
+    url: PropTypes.object
+  }
 }
