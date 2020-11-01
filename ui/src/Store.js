@@ -2,12 +2,19 @@ import React, { createContext, useReducer } from "react";
 import Reducer from "./Reducer";
 
 const initialState = {
+  api: null,
   urls: [
-    { id: 0, name: "hackernews.com", class: "newpaper-button" },
-    { id: 1, name: "test2", class: "newpaper-button" },
-    { id: 2, name: "test3", class: "newpaper-button" },
-    { id: 3, name: "test4", class: "newpaper-button" },
+    { id: 0, name: "hackernews.com", check: 0 },
+    { id: 1, name: "test2", check: 0 },
+    { id: 2, name: "test3", check: 0 },
+    { id: 3, name: "test4", check: 0 },
   ],
+  // buttons
+  showBtnActions: true,
+  dlBtnDsbld: false,
+  // utils
+  loading: false,
+  errMsg: false,
 };
 
 const Store = ({ children }) => {

@@ -1,10 +1,13 @@
 body {
   background-color: #2f3e46 !important;
+  height: auto;
+}
+:focus {
+  outline: -webkit-focus-ring-color auto 0px !important;
 }
 .app {
   width: 100%;
   padding: 10%;
-  height: 100%;
 }
 .dashboard {
   border: #354f52 solid 1px;
@@ -16,19 +19,27 @@ body {
   border-radius: 0.5em;
   padding: 2%;
   margin: auto;
-  max-width:500px;
-
+  max-width: 500px;
 }
-.submit-button {
-  margin: 5%;
-  border-radius: 0.2em;
-  padding: 5%;
-  background-color: #073b4c;
-  color: #cad2c5;
-  font-size: 120%;
-  border: none;
+.msg {
+  background-color: #84a98c !important;
+  width: auto !important;
+  color: white !important;
 }
-.newpaper-button {
+.errMsg {
+  color:red;
+}
+.actions-btn {
+  margin: 5% !important;
+  border-radius: 0.2em !important;
+  padding: 5% !important;
+  background-color: #073b4c !important;
+  color: white !important;
+  font-size: 120% !important;
+  border: none !important;
+  width: 180px !important;
+}
+.url-btn {
   min-width: 90%;
   border: #073b4c 1px dashed;
   background-color: transparent;
@@ -37,15 +48,15 @@ body {
   border-radius: 0.2em;
   padding: 5%;
 }
-.newpaper-button-disabled {
+.url-btn-actv {
   min-width: 90%;
-  background-color: #84a98c;
+  background-color: #52796f;
   font-size: 120%;
   margin: 2%;
   border-radius: 0.2em;
   padding: 5%;
-  color:#073b4c;
-  border: solid 2px #84a98c;
+  color: white;
+  border: solid 1px #84a98c;
   box-shadow: 0px 0px 2px 0px #354f52;
   -moz-box-shadow: 0px 0px 2px 0px #354f52;
   -webkit-box-shadow: 0px 0px 2px 0px #354f52;

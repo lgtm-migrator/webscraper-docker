@@ -8,11 +8,11 @@ const PORT = 8080;
 
 app.use(cors(), bodyParser.urlencoded({ extended: true }), bodyParser.json());
 
-app.post("/api/new", (req, res) => {
+app.post("/api/urls", (req, res) => {
   let datasArray = [];
-
+  let hackernews = req.body.urls
   // HACKERSNEWS
-  let hackernews = req.body.url
+  
   // get all links from HACKERNEWS
   function getHackersNews(hackernews) {
     request.get(hackernews, function (error, response, data) {
@@ -31,7 +31,7 @@ app.post("/api/new", (req, res) => {
     linksArray.forEach((el, index) => {
       request.get(linksArray[index].link, function (error, response, data) {
         let $ = cheerio.load(data);
-        datasArray.push({ "story-title": $("h1").text(), p: $("p").text() });
+        datasArray.push({ "title": $("h1").text(), "text": $("p").text() });
         if (datasArray.length === linksArray.length) {
           res.status(200).send(datasArray);
         }

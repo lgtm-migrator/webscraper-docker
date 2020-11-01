@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "semantic-ui-css/semantic.min.css";
-import Store from './Store'
+import Store from "./Store"
 
 ReactDOM.render(
   <React.StrictMode>
