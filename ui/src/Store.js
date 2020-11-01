@@ -4,10 +4,15 @@ import Reducer from "./Reducer";
 const initialState = {
   api: null,
   urls: [
-    { id: 0, name: "hackernews.com", check: 0 },
-    { id: 1, name: "test2", check: 0 },
-    { id: 2, name: "test3", check: 0 },
-    { id: 3, name: "test4", check: 0 },
+    {
+      id: 0,
+      name: "thehackernews.com",
+      check: 0,
+      url: "https://thehackernews.com/",
+    },
+    { id: 1, name: "test2", check: 0, url: "" },
+    { id: 2, name: "test3", check: 0, url: "" },
+    { id: 3, name: "test4", check: 0, url: "" },
   ],
   // buttons
   showBtnActions: true,

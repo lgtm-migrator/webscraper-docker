@@ -8,8 +8,8 @@ export default function DownloadButton() {
     dispatch({ type: "Dl_BTN_DSBLD", payload: true });
   };
   return (
-    <div class="ui msg message">
-      <div class="header">Success !</div>
+    <div className="ui msg message">
+      <div className="header">Success !</div>
       <p>Now, you can download your file</p>
       <DownloadBtn />
     </div>
