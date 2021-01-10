@@ -1,6 +1,6 @@
 # Simple Webscraper
 
-![alt text](https://raw.githubusercontent.com/alpha77788998778999877855/port-scanner-docker/main/markdown/img/webscraper.gif)
+![alt text](https://raw.githubusercontent.com/alpha77788998778999877855/webscraper-docker/main/markdown/img/webscraper.gif)
 
 ## Project Description
 
