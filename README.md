@@ -8,7 +8,12 @@ Extract data from any website in seconds
 
 ## Tech Stack
 
-Reactjs, Nodejs
+Reactjs
+<https://reactjs.org>
+Nodejs
+<https://nodejs.org/en/>
+Semantic UI
+<https://semantic-ui.com>
 
 ## Installation and run the app 🚀🚀
 
