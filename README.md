@@ -4,7 +4,11 @@
 
 ## Project Description
 
-This project is a basic implementation of port scanner, which helps network administrators to ensure machines in their network run in normal.
+Extract data from any website in seconds
+
+## Tech Stack
+
+Reactjs, Nodejs
 
 ## Installation and run the app 🚀🚀
 
