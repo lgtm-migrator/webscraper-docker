@@ -1,4 +1,4 @@
-FROM node:16.12.0
+FROM node:17.0.0-bullseye-slim
 # Create app directory
 WORKDIR /usr/src/app
 # Install app dependencies
