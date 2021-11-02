@@ -1,5 +1,7 @@
 # Simple Webscraper
 
+[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/snyk/snyk-maven-plugin.svg)](https://snyk.io)
+
 ![alt text](https://raw.githubusercontent.com/alpha77788998778999877855/webscraper-docker/main/markdown/img/webscraper.gif)
 
 ## Project Description
