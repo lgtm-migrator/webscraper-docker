@@ -1,7 +1,7 @@
+# Simple Webscraper
+
 [![Known Vulnerabilities](https://snyk.io/test/github/JulienChapron/webscraper-docker/badge.svg)]
 
-
-# Simple Webscraper
 
 ![alt text](https://raw.githubusercontent.com/alpha77788998778999877855/webscraper-docker/main/markdown/img/webscraper.gif)
 
