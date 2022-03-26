@@ -15,6 +15,7 @@
     "semantic-ui-react": "^1.2.0"
   },
   "scripts": {
+    "postinstall": "semantic-ui-css-patch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@semantic-ui-react/css-patch": "^1.0.0",
     "prettier": "^2.1.2"
   }
 }
