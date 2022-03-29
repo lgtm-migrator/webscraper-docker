@@ -4,8 +4,7 @@
  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="covid19-leaflet-docker is released under the MIT license." />
 </a>
 
-[![Known Vulnerabilities](https://snyk.io/test/github/expressjs/express/4.x/badge.svg)]
-(https://snyk.io/test/github/{username}/{repo})
+![Known Vulnerabilities](https://snyk.io/test/github/expressjs/express/4.x/badge.svg)
 
 ![alt text](https://raw.githubusercontent.com/alpha77788998778999877855/webscraper-docker/main/markdown/img/webscraper.gif)
 
