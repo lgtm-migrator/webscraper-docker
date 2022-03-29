@@ -4,7 +4,7 @@
 </a>
 <a href="https://snyk.io/test/github/JulienChapron/webscraper-docker:api">
  
-![Known Vulnerabilities](https://snyk.io/test/github/JulienChapron/webscraper-docker:api/badge.svg)
+![Known Vulnerabilities]("https://snyk.io/test/github/JulienChapron/webscraper-docker:api/badge.svg")
 
 
 ![alt text](https://raw.githubusercontent.com/alpha77788998778999877855/webscraper-docker/main/markdown/img/webscraper.gif)
