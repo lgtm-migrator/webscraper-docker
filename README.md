@@ -2,8 +2,6 @@
 <a href="https://github.com/JulienChapron/port-scanner-docker/main/LICENSE">
  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="covid19-leaflet-docker is released under the MIT license." />
 </a>
-<a href="https://snyk.io/test/github/JulienChapron/webscraper-docker:api">
- 
 ![Known Vulnerabilities]("https://snyk.io/test/github/JulienChapron/webscraper-docker:api/badge.svg")
 
 
