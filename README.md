@@ -1,9 +1,8 @@
 # Simple Webscraper
-
+[![Code Climate](https://codeclimate.com/github/JulienChapron/webscraper-docker/badges/gpa.svg)](https://codeclimate.com/github/JulienChapron/webscraper-docker)
 <a href="https://github.com/JulienChapron/port-scanner-docker/main/LICENSE">
  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="covid19-leaflet-docker is released under the MIT license." />
 </a>
-
 ![Known Vulnerabilities](https://snyk.io/test/github/JulienChapron/webscraper-docker/badge.svg)
 
 ![alt text](https://raw.githubusercontent.com/alpha77788998778999877855/webscraper-docker/main/markdown/img/webscraper.gif)
